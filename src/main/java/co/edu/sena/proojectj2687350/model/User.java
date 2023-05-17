@@ -1,22 +1,24 @@
 package co.edu.sena.proojectj2687350.model;
 
-public class user {
+public class User {
     private Integer user_id;
     private String user_firstname;
     private String user_lastname;
     private String user_email;
     private String user_password;
 
-    public user() {
+    public User() {
     }
 
-    public user(Integer user_id, String user_firstname, String user_lastname, String user_email, String user_password) {
+    public User(Integer user_id, String user_firstname, String user_lastname, String user_email, String user_password) {
         this.user_id = user_id;
         this.user_firstname = user_firstname;
         this.user_lastname = user_lastname;
         this.user_email = user_email;
         this.user_password = user_password;
     }
+
+
 
 
     public Integer getUser_id() {

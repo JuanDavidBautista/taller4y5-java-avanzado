@@ -27,26 +27,26 @@
     <div class="form-floating">
       <input type="text" class="form-control" id="floatingName"
              placeholder="Ingrese sus nombres " required autofocus
-             pattern="[A-za-z0-9 ]{8,12}">
+             pattern="[A-za-z0-9 ]{8,12}" name="user_firstname">
       <label for="floatingName">Nombres:</label>
     </div>
     <div class="form-floating">
       <input type="text" class="form-control" id="floatingLastname"
              placeholder="Ingrese sus apellidos " required
-             pattern="[A-za-z0-9 ]{8,12}">
+             pattern="[A-za-z0-9 ]{8,12}" name="user_lastname">
       <label for="floatingLastname">Apellidos:</label>
     </div>
     <div class="form-floating">
       <input type="text" class="form-control" id="floatingEmail"
              placeholder="Ingrese su correo" required
-             pattern="{8,40}">
+             pattern="{8,40}" name="user_email">
       <label for="floatingEmail">Correo:</label>
     </div>
 
     <div class="form-floating">
       <input type="password" class="form-control" id="floatingPassword"
              placeholder="Ingrese su contraseña" required
-             pattern="[A-za-z0-9]{8,12}">
+             pattern="[A-za-z0-9]{8,12}" name="user_password">
       <label for="floatingPassword">Contraseña:</label>
     </div>
 
