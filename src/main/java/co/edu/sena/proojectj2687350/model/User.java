@@ -18,7 +18,8 @@ public class User {
         this.user_password = user_password;
     }
 
-
+    public User(String userFirstname, String userLastname, String userEmail, String userPassword) {
+    }
 
 
     public Integer getUser_id() {
